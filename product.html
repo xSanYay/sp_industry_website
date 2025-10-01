@@ -1,0 +1,875 @@
+<!DOCTYPE html>
+<html lang="en">
+
+    <head>
+        <meta charset="utf-8">
+        <title>AMBER Products - Precision Testing Equipment | SP Industries</title>
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <meta name="description" content="Discover our complete range of AMBER precision testing equipment including Instrument Transformer Test Sets, Digital Micro-ohm Meters, and advanced electrical testing solutions.">
+        <meta name="keywords" content="AMBER, Instrument Transformer Test Set, Digital Micro-ohm Meter, Electrical Testing Equipment, Precision Testing, SP Industries">
+        <meta name="author" content="SP Industries">
+        
+        <!-- Performance optimizations -->
+        <link rel="dns-prefetch" href="//fonts.googleapis.com">
+        <link rel="preload" href="assets/img/portfolio/" as="fetch" crossorigin>
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <!-- CSS - Optimized loading order -->
+        <link rel="preconnect" href="https://fonts.googleapis.com">
+        <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+        <link rel="stylesheet" href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=Space+Grotesk:wght@400;500;600;700&display=swap">
+        <link rel="stylesheet" href="assets/bootstrap/css/bootstrap.min.css">
+        <link rel="stylesheet" href="assets/css/style.css">
+        <link rel="stylesheet" href="assets/css/modern-enhancements.css">
+        <link rel="preload" href="assets/prettyPhoto/css/prettyPhoto.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="assets/css/flexslider.css" as="style" onload="this.onload=null;this.rel='stylesheet'">
+        <link rel="preload" href="assets/css/font-awesome.css" as="style" onload="this.onload=null;this.rel='stylesheet'">        <!-- Modern CSS additions -->
+        <style>
+        :root {
+            --primary-color: #1a56db;
+            --secondary-color: #0ea5e9;
+            --accent-color: #f59e0b;
+            --text-dark: #1e293b;
+            --text-light: #64748b;
+            --bg-light: #f8fafc;
+            --border-light: #e2e8f0;
+            --gradient-primary: linear-gradient(135deg, #1a56db 0%, #0ea5e9 100%);
+            --gradient-accent: linear-gradient(135deg, #f59e0b 0%, #f97316 100%);
+            --success-color: #10b981;
+            --card-shadow: 0 4px 6px -1px rgba(0, 0, 0, 0.1), 0 2px 4px -1px rgba(0, 0, 0, 0.06);
+            --card-shadow-hover: 0 20px 25px -5px rgba(0, 0, 0, 0.1), 0 10px 10px -5px rgba(0, 0, 0, 0.04);
+        }
+
+        body {
+            font-family: 'Inter', -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, sans-serif;
+            line-height: 1.6;
+            color: var(--text-dark);
+            background: #ffffff;
+        }
+
+    /* .modern-navbar now globally styled in assets/css/style.css */
+
+        .modern-hero {
+            background: var(--gradient-primary);
+            padding: 5rem 0 3rem;
+            margin-top: 0;
+            position: relative;
+            overflow: hidden;
+        }
+
+        .modern-hero::before {
+            content: '';
+            position: absolute;
+            top: 0;
+            left: 0;
+            right: 0;
+            bottom: 0;
+            background: url('data:image/svg+xml,<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1000 1000"><defs><pattern id="grid" width="40" height="40" patternUnits="userSpaceOnUse"><path d="M 40 0 L 0 0 0 40" fill="none" stroke="rgba(255,255,255,0.1)" stroke-width="1"/></pattern></defs><rect width="100%" height="100%" fill="url(%23grid)"/></svg>');
+            opacity: 0.3;
+        }
+
+        .hero-content {
+            position: relative;
+            z-index: 2;
+            color: white;
+            text-align: center;
+        }
+
+        .hero-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 3.5rem;
+            font-weight: 700;
+            margin-bottom: 1rem;
+            line-height: 1.1;
+        }
+
+        .hero-subtitle {
+            font-size: 1.25rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+            max-width: 700px;
+            margin-left: auto;
+            margin-right: auto;
+        }
+
+        .breadcrumb-modern {
+            background: transparent;
+            color: rgba(255, 255, 255, 0.8);
+            font-size: 0.875rem;
+            margin-bottom: 1rem;
+        }
+
+        .breadcrumb-modern a {
+            color: rgba(255, 255, 255, 0.8);
+            text-decoration: none;
+        }
+
+        .breadcrumb-modern a:hover {
+            color: white;
+        }
+
+        .products-section {
+            padding: 4rem 0;
+            background: var(--bg-light);
+        }
+
+        .section-header {
+            text-align: center;
+            margin-bottom: 4rem;
+        }
+
+        .section-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2.5rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 1rem;
+        }
+
+        .section-subtitle {
+            color: var(--text-light);
+            font-size: 1.125rem;
+            max-width: 600px;
+            margin: 0 auto;
+        }
+
+        .product-categories {
+            display: flex;
+            justify-content: center;
+            flex-wrap: wrap;
+            gap: 1rem;
+            margin-bottom: 3rem;
+        }
+
+        .category-filter {
+            padding: 0.75rem 1.5rem;
+            background: white;
+            border: 2px solid var(--border-light);
+            border-radius: 2rem;
+            color: var(--text-light);
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+        }
+
+        .category-filter:hover,
+        .category-filter.active {
+            background: var(--primary-color);
+            border-color: var(--primary-color);
+            color: white;
+            text-decoration: none;
+        }
+
+        .products-grid {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(280px, 1fr));
+            gap: 1.5rem;
+            margin-top: 2rem;
+            contain: layout;
+        }
+
+
+
+        .product-card {
+            background: white;
+            border-radius: 1rem;
+            overflow: hidden;
+            box-shadow: var(--card-shadow);
+            transition: all 0.3s ease;
+            border: 1px solid var(--border-light);
+        }
+
+        .product-card:hover {
+            transform: translateY(-5px);
+            box-shadow: var(--card-shadow-hover);
+        }
+
+        .product-image {
+            position: relative;
+            background: linear-gradient(135deg, #f8fafc 0%, #e2e8f0 100%);
+            padding: 2rem;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            min-height: 250px;
+        }
+
+        .product-image img {
+            max-width: 100%;
+            max-height: 200px;
+            object-fit: contain;
+            transition: transform 0.3s ease;
+        }
+
+        .product-card:hover .product-image img {
+            transform: scale(1.05);
+        }
+
+        .product-badge {
+            position: absolute;
+            top: 1rem;
+            right: 1rem;
+            background: var(--gradient-accent);
+            color: white;
+            padding: 0.5rem 1rem;
+            border-radius: 2rem;
+            font-size: 0.75rem;
+            font-weight: 600;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .product-content {
+            padding: 2rem;
+        }
+
+        .product-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 1.25rem;
+            font-weight: 600;
+            color: var(--text-dark);
+            margin-bottom: 0.75rem;
+            text-transform: uppercase;
+            letter-spacing: 0.5px;
+        }
+
+        .product-description {
+            color: var(--text-light);
+            margin-bottom: 1.5rem;
+            line-height: 1.6;
+        }
+
+        .product-features {
+            list-style: none;
+            padding: 0;
+            margin: 1rem 0;
+        }
+
+        .product-features li {
+            color: var(--text-light);
+            font-size: 0.875rem;
+            margin-bottom: 0.5rem;
+            display: flex;
+            align-items: center;
+        }
+
+        .product-features li::before {
+            content: '✓';
+            background: var(--success-color);
+            color: white;
+            width: 1.25rem;
+            height: 1.25rem;
+            border-radius: 50%;
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            font-size: 0.75rem;
+            margin-right: 0.75rem;
+            flex-shrink: 0;
+        }
+
+        .product-actions {
+            display: flex;
+            gap: 1rem;
+            align-items: center;
+            justify-content: center;
+        }
+
+        .btn-primary-modern {
+            background: var(--gradient-primary);
+            color: white;
+            padding: 0.75rem 1.5rem;
+            border-radius: 0.5rem;
+            text-decoration: none;
+            font-weight: 500;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.5rem;
+        }
+
+        .btn-primary-modern:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 20px rgba(26, 86, 219, 0.3);
+            color: white;
+            text-decoration: none;
+        }
+
+        .cta-section {
+            background: var(--gradient-primary);
+            padding: 4rem 0;
+            text-align: center;
+            color: white;
+        }
+
+        .cta-title {
+            font-family: 'Space Grotesk', sans-serif;
+            font-size: 2rem;
+            font-weight: 600;
+            margin-bottom: 1rem;
+        }
+
+        .cta-subtitle {
+            font-size: 1.125rem;
+            opacity: 0.9;
+            margin-bottom: 2rem;
+        }
+
+        .btn-cta {
+            background: white;
+            color: var(--primary-color);
+            padding: 1rem 2rem;
+            border-radius: 0.75rem;
+            text-decoration: none;
+            font-weight: 600;
+            font-size: 1.125rem;
+            transition: all 0.3s ease;
+            display: inline-flex;
+            align-items: center;
+            gap: 0.75rem;
+        }
+
+        .btn-cta:hover {
+            transform: translateY(-2px);
+            box-shadow: 0 10px 25px rgba(255, 255, 255, 0.3);
+            color: var(--primary-color);
+            text-decoration: none;
+        }
+
+        @media (max-width: 768px) {
+            .hero-title {
+                font-size: 2.5rem;
+            }
+            
+            .section-title {
+                font-size: 2rem;
+            }
+
+            .products-grid {
+                grid-template-columns: 1fr;
+            }
+
+            .product-actions {
+                flex-direction: column;
+            }
+
+            .category-filter {
+                font-size: 0.875rem;
+                padding: 0.5rem 1rem;
+            }
+        }
+        </style>
+    </head>
+
+    <body> 
+        <!-- Centralized Navbar Placeholder -->
+        <div id="navbar-container"></div>
+
+        <!-- Modern Hero Section -->
+        <!-- <section class="modern-hero">
+            <div class="container">
+                <div class="hero-content">
+                    <h1 class="hero-title">AMBER Products</h1>
+                </div>
+            </div>
+        </section> -->
+
+        <!-- Products Section -->
+        <section class="products-section">
+            <div class="container">
+                <div class="section-header">
+                    <h2 class="section-title">Our Testing Solutions</h2>
+                    <!-- <p class="section-subtitle">
+                        Browse our complete range of electrical testing equipment, meticulously engineered for precision and reliability
+                    </p> -->
+                </div>
+
+                <!-- Product Categories Filter -->
+                <div class="product-categories">
+                    <a href="#" class="category-filter active" data-filter="all">All Products</a>
+                    <a href="#" class="category-filter" data-filter="transformer-testing">Transformer Testing</a>
+                    <a href="#" class="category-filter" data-filter="resistance-testing">Resistance Testing</a>
+                    <a href="#" class="category-filter" data-filter="accessories">Accessories</a>
+                </div>
+
+
+
+                <!-- Products Grid -->
+                <div class="products-grid" id="products-grid">
+                    <!-- Instrument Transformer Test Sets -->
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <span class="product-badge">Featured</span>
+                            <img alt="AMBER iXR-2000M" src="assets/img/portfolio/p1.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER iXR-2000<sup>M</sup></h3>
+                            <p class="product-description">
+                                Complete micro-processor controlled comparator for comprehensive instrument transformer testing.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/iXR-2000M.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER iXR-2000HT" src="assets/img/portfolio/p2.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER iXR-2000<sup>HT</sup></h3>
+                            <p class="product-description">
+                                High-tension version of our flagship instrument transformer test set.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/iXR-2000HT.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Transformer Ratio Meters -->
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER XR-120" src="assets/img/portfolio/p3.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER XR-120</h3>
+                            <p class="product-description">
+                                Transformer ratio meters using four terminal measurement technique.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/XR-120_XR-120s.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER XR-120S" src="assets/img/portfolio/p4.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER XR-120S</h3>
+                            <p class="product-description">
+                                Standard transformer ratio meter with four terminal measurements.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/XR-120_XR-120s.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER XR-120S HT" src="assets/img/portfolio/p5.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER XR-120S<sup>HT</sup></h3>
+                            <p class="product-description">
+                                High-tension transformer ratio meter with four terminal measurements.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/XR-120sHT_XR-120HT.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER XR-120 HT" src="assets/img/portfolio/p6.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER XR-120<sup>HT</sup></h3>
+                            <p class="product-description">
+                                High-tension transformer ratio meter for demanding applications.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/XR-120sHT_XR-120HT.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Tan Delta Test Sets -->
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER ATCS-500" src="assets/img/portfolio/p7.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER ATCS-500</h3>
+                            <p class="product-description">
+                                Low Voltage Tan Delta and Capacitance Test Set for instrument testing.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/ATCS-500.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER ATCS-500 HT" src="assets/img/portfolio/p8.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER ATCS-500<sup>HT</sup></h3>
+                            <p class="product-description">
+                                High-tension version of ATCS-500 Tan Delta and Capacitance Test Set.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/ATCS-500.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Oil Test Sets -->
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER ARTD-10" src="assets/img/portfolio/p9.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER ARTD-10</h3>
+                            <p class="product-description">
+                                Induction heater for heating oil at high frequency to raise temperature.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/ARTD-10.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="transformer-testing">
+                        <div class="product-image">
+                            <img alt="AMBER ARTD-10 HT" src="assets/img/portfolio/p10.png" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER ARTD-10<sup>HT</sup></h3>
+                            <p class="product-description">
+                                High-tension induction heater for oil heating applications.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/ARTD-10HT.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Winding Resistance Meters -->
+                    <div class="product-card" data-category="resistance-testing">
+                        <div class="product-image">
+                            <img alt="AMBER XRM-20K" src="assets/img/portfolio/p11.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER XRM-20K</h3>
+                            <p class="product-description">
+                                Digital winding resistance meter - simple, accurate and robust.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/XRM-20K.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Micro-ohm Meters -->
+                    <div class="product-card" data-category="resistance-testing">
+                        <div class="product-image">
+                            <span class="product-badge">Popular</span>
+                            <img alt="AMBER M-2K" src="assets/img/portfolio/p12.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER M-2K</h3>
+                            <p class="product-description">
+                                Compact, robust and portable digital micro-ohmmeter.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/M-2K.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="resistance-testing">
+                        <div class="product-image">
+                            <img alt="AMBER M-10" src="assets/img/portfolio/p13.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER M-10</h3>
+                            <p class="product-description">
+                                Digital micro ohm-meter for low to very low range measurements.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/M-10_M-100.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="resistance-testing">
+                        <div class="product-image">
+                            <img alt="AMBER M-100" src="assets/img/portfolio/p14.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER M-100</h3>
+                            <p class="product-description">
+                                Advanced digital micro ohm-meter for precision resistance measurements.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/M-10_M-100.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Variable Frequency Generators -->
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="AMBER VFG-60" src="assets/img/portfolio/p15.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER VFG-60</h3>
+                            <p class="product-description">
+                                Variable frequency generator - compact, robust and portable.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/VFG-60_VFG-110.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="AMBER VFG-110" src="assets/img/portfolio/p16.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">AMBER VFG-110</h3>
+                            <p class="product-description">
+                                High-power variable frequency generator for demanding applications.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/VFG-60_VFG-110.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <!-- Testing Panels & Accessories -->
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="CT & PT Panel" src="assets/img/portfolio/p17.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">CT & PT Panel</h3>
+                            <p class="product-description">
+                                CT/PT panel for testing instrument transformers safely and efficiently.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/Accessories.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="LT & HVS" src="assets/img/portfolio/p18.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">LT & HVS</h3>
+                            <p class="product-description">
+                                LT/HVS for testing current and potential transformers.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/Accessories.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="Burden Box" src="assets/img/portfolio/p19.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Burden Box</h3>
+                            <p class="product-description">
+                                Burden boxes for CT(5A/1A) and PT(110V/63.5v) as per IEC/IS standard.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/Accessories.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+
+                    <div class="product-card" data-category="accessories">
+                        <div class="product-image">
+                            <img alt="Standard CT & PT" src="assets/img/portfolio/p20.png" loading="lazy" />
+                        </div>
+                        <div class="product-content">
+                            <h3 class="product-title">Standard CT & PT</h3>
+                            <p class="product-description">
+                                Standard CT & PT as per IEC/IS standard for calibration purposes.
+                            </p>
+                            <div class="product-actions">
+                                <a href="assets/pdf/Accessories.pdf" target="_blank" class="btn-primary-modern">
+                                    <i class="icon-file-text"></i>
+                                    Technical Specs
+                                </a>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </section>
+
+        <!-- Call to Action -->
+        <section class="cta-section">
+            <div class="container">
+                <h2 class="cta-title">Need Custom Solutions?</h2>
+                <p class="cta-subtitle">
+                    Our engineering team can develop specialized testing equipment tailored to your specific requirements
+                </p>
+                <a href="contact.php.html" class="btn-cta">
+                    <i class="icon-phone"></i>
+                    Contact Our Experts
+                </a>
+            </div>
+        </section>
+
+        
+        <script src="assets/js/navbar.js"></script>
+        <script src="assets/js/footer.js"></script>
+        <!-- Critical scripts loaded first -->
+        <script src="assets/js/jquery-1.8.2.min.js"></script>
+        <!-- Non-critical scripts loaded asynchronously -->
+        <script async src="assets/bootstrap/js/bootstrap.min.js"></script>
+        <script async src="assets/js/jquery.flexslider.js"></script>
+        <script async src="assets/prettyPhoto/js/jquery.prettyPhoto.js"></script>
+        <script async src="assets/js/scripts.js"></script>
+        
+        <script>
+        // Optimized JavaScript for better performance
+        document.addEventListener('DOMContentLoaded', function() {
+            // Cache DOM elements for better performance
+            const filters = document.querySelectorAll('.category-filter');
+            const products = document.querySelectorAll('.product-card');
+            
+            // Use event delegation for better performance
+            document.querySelector('.product-categories').addEventListener('click', function(e) {
+                if (e.target.classList.contains('category-filter')) {
+                    e.preventDefault();
+                    
+                    // Remove active class from current active filter
+                    document.querySelector('.category-filter.active').classList.remove('active');
+                    // Add active class to clicked filter
+                    e.target.classList.add('active');
+                    
+                    const category = e.target.dataset.filter;
+                    
+                    // Use requestAnimationFrame for smooth rendering
+                    requestAnimationFrame(() => {
+                        products.forEach(product => {
+                            const shouldShow = category === 'all' || product.dataset.category === category;
+                            product.style.display = shouldShow ? 'block' : 'none';
+                            if (shouldShow) {
+                                product.style.opacity = '0';
+                                product.style.transform = 'translateY(20px)';
+                                requestAnimationFrame(() => {
+                                    product.style.transition = 'opacity 0.3s ease, transform 0.3s ease';
+                                    product.style.opacity = '1';
+                                    product.style.transform = 'translateY(0)';
+                                });
+                            }
+                        });
+                    });
+                }
+            });
+
+            // Lazy load prettyPhoto only when needed
+            let prettyPhotoLoaded = false;
+            function initPrettyPhoto() {
+                if (!prettyPhotoLoaded && typeof jQuery !== 'undefined') {
+                    jQuery("a[rel^='prettyPhoto']").prettyPhoto({
+                        theme: 'pp_default',
+                        hook: 'rel',
+                        opacity: 0.80,
+                        show_title: true,
+                        allow_resize: true,
+                        default_width: 500,
+                        default_height: 344
+                    });
+                    prettyPhotoLoaded = true;
+                }
+            }
+
+            // Initialize prettyPhoto on first hover
+            document.addEventListener('mouseover', function(e) {
+                if (e.target.closest("a[rel^='prettyPhoto']")) {
+                    initPrettyPhoto();
+                }
+            }, { once: true });
+
+            // Optimized smooth scroll with passive event listeners
+            document.addEventListener('click', function(e) {
+                if (e.target.matches('a[href^="#"]')) {
+                    e.preventDefault();
+                    const target = document.querySelector(e.target.getAttribute('href'));
+                    if (target) {
+                        target.scrollIntoView({
+                            behavior: 'smooth',
+                            block: 'start'
+                        });
+                    }
+                }
+            }, { passive: false });
+        });
+        </script>
+        </body>
+</html>
